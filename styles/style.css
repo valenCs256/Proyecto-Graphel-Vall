@@ -1,0 +1,306 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+}
+
+nav{
+    background: rgb(41, 47, 53);
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.primeraparte {
+    border-bottom: solid 6px rgb(53, 149, 238);
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;   
+}
+
+li {
+    margin: 20px;
+}
+.links{
+    color: aliceblue;   
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    transition: 0.3;
+}
+
+a:hover{
+    color: rgb(101, 101, 235);
+}
+
+.palabra2{
+    color: rgb(53, 149, 238);
+}
+
+.palabra1 {
+    margin: 0px 7px 0px 0px;
+}
+
+.titulo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: white;
+    font-size: 25px;
+}
+.cabecera{
+    display: flex;
+    justify-content: center;
+    background-image: url(../assets/images/cabecera.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 400px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+}
+.suscribete{
+    display: flex;
+    justify-items: start;
+    color: white;
+}
+.buscador{
+    padding: 30px;
+}
+h4{
+    margin: 0;
+    color: rgb(116, 113, 113);
+    background-color: white;
+}
+#correo{
+    padding: 7px 50px 7px 20px;
+}
+
+button {
+    margin: 0px 0px 0px 5px;
+    padding: 11px 16px 11px 16px;
+    color: white;
+    background-color: rgb(255, 81, 0);
+    border: none;
+    transition: 0.3;
+}
+
+button:hover{
+    background-color: orangered;
+}
+
+.suscribcion{
+    display: flex;
+}
+.expertos{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 70px;
+}
+
+.parrafobajo{
+    font-size: 20px;
+    color: white;
+}
+.programacion{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    text-align: center;
+    padding: 3rem, 2rem;
+    gap: 2rem;
+    margin: 0px 0px 66px 0px;   
+}
+
+.html img{
+    width: 80px;
+    height: auto;
+    margin-bottom: 1rem;
+    margin: 0px 0px 20px 0px;
+}
+
+.css img{
+    width: 80px;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.brush img{
+    width: 80px;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.html{
+    width: 350px;
+}
+
+.css{
+    width: 350px;
+}
+
+.brush{
+    width: 350px;
+}
+
+footer{
+    background-color: rgb(53, 149, 238);
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 35px;
+}
+
+/*Menu nosotros*/
+
+.textoeimagen{
+    margin: 14px 0px 85px 320px;
+}
+
+.Nosotrostitulo{
+    margin: 0px 0px 15px 0px;
+}
+
+.Lorem{
+    width: 750px;
+    margin: 0px 0px 0px 0px;
+}
+
+.Aliquam{
+    color: white;
+    background-color: rgb(50, 60, 71);
+    width: 700px;
+    padding: 20px;
+}
+
+.tasadecafe{
+    margin: 18px 0px 0px 0px;
+    width: 740px;
+    height: auto;
+}
+
+.ipsum{
+    color: white;
+    background-color: rgb(50, 60, 71);
+    width: 300px;
+    padding: 30px;
+    margin: 8px 0px 0px 100px;
+}
+.NosotrosYQueHacemos{
+    display: flex;
+}
+
+.TextoTitulo{
+    margin: 0px 0px 0px 0px;
+}
+
+/* servicios */
+
+.texto{
+background-color: gainsboro;
+padding: 50px 20px 50px 20px;
+margin: 0px 0px 18px 0px;
+width: 55%;
+}
+
+.Contenidomain{
+    margin: 0px 0px 0px 60px;
+}
+
+.servicios{
+    margin: 18px 0px 18px 0px;
+}
+
+.eltitulo{
+    margin: 0px 0px 18px 0px;
+}
+
+.parrafo1{
+    width: 850px;
+    margin: 0px 0px 16px 0px;
+}
+
+.alinear{
+    display: flex;
+}
+
+/* contacto*/
+
+.elregistro{
+    display: flex;
+    flex-direction: column;
+}
+
+.registro{
+    display: flex;
+    padding: 12px 0px 12px 0px;
+
+}
+
+.elcontacto{
+    margin: 15px 0px 6px 190px;
+}
+
+label{
+    margin: 9px 0px 1px 0px;
+}
+
+.mensaje{
+    padding: 100px 400px 60px 400px;
+}
+
+.ElBoton{
+    display: flex;
+    justify-content: center;
+}
+.botonenviar{
+    background-color: rgb(255, 81, 0);
+    border: none;
+    color: white; 
+    margin-top: 10px;
+    padding: 10px 450px 10px 450px; 
+}
+
+.mapa{
+    width: 360px;
+    height: auto;
+}
+
+.ipsunyimagen{
+    display: flex;
+    flex-direction: column;
+}
+.contenedordeform{
+    display: flex;
+}
+
+.alineando{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.ultimoipsum{
+    color: white;
+    background-color: rgb(50, 60, 71);
+    width: 300px;
+    padding: 30px;
+    margin: 0px 0px 9px 0px;
+}
+
+.contactomain{
+    margin: 0px 0px 80px 0px;
+}
+
